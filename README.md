@@ -1,5 +1,4 @@
-# Golang API Course - Final Project (@ Estiam)
-
+# Golang API
 This is an API that needs fixing.
 
 You have been studying how to write web servers in golang.
@@ -16,7 +15,7 @@ Checks whether the API is up and running.
 
 > GET /users/:id
 
-Returns the full information about a user: including username and password :warning:
+Returns the full information about a user: including username and password
 
 I bet you already know what's wrong, right? How can an API return an User's whole info?
 
@@ -47,8 +46,6 @@ You will need to write a **service method to create a new user**:
     - Load bcrypt secret on `.env` file. See how app's configuration was done.
     - Save the hash, not the original password.
 
-:warning: This endpoint is worth 7 points, totalizing 8 points for the whole assignment.
-
 ### 3. Extra: Login (2 points)
 
 Students that implement an extra `POST /login` endpoint will be awarded 2 points.
@@ -78,9 +75,3 @@ You can set the expiration time when creating the JWT.
 * What should be returned in case the password is wrong and generating the JWT wasn't possible?
 
 This is an extra requirement and it's worth 2 extra points.
-
-### 4. Assessment
-
-:warning: **The project should be submitted as a compressed file (zip/tar/rar) on Microsoft Teams. It can be done in groups of up to 5 people. Only one submission per group.**
-
-:warning: **The names of the group members should be inside the code in commentary on the main module.**
