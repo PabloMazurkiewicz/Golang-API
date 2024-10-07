@@ -11,7 +11,7 @@ This API written in Golang utilizes the Echo Framework. It has two endpoints
 
 > GET /live
 
-Checks whether the API is up and running.
+Checks whether the API is up and runnining.
 
 > GET /users/:id
 
